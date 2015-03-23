@@ -1,0 +1,232 @@
+/*****************************/
+/*Written by Adam Sofokleous**/
+/*All CSS code written by me**/
+/*Unless otherwise referenced*/
+/*****************************/
+body{
+	background-color:black;
+	color:white;
+}
+
+@font-face { /* Font import using font-face http://www.font-face.com/ */
+	font-family: pricedown;
+	src: url("../fonts/pricedown.ttf") format("truetype");
+}
+
+@font-face { /* Font import using font-face http://www.font-face.com/ */
+	font-family: BirchStd;
+	src: url("../fonts/BirchStd.otf") format("opentype");
+}
+
+.container{
+        position:relative;
+        min-height:100%;
+}
+
+.main{  /* BG PATTERN */
+	background: url('../images/reggaePoster.jpg') repeat;
+}
+
+header{ /* To be faded in by JQUERY */
+	display:none;
+}
+/* H Tags */
+h1{
+	font-size:8em;
+	color:#990000;
+	font-family: pricedown, Impact, Tahoma, sans-serif ;
+	text-shadow: -2px -4px 0px black;
+}
+
+h2{
+	font-size:3em;
+	color:white;
+	font-family: pricedown, Impact, Tahoma, sans-serif ;
+	text-shadow: -2px -3px 0px black;
+}
+
+h3{
+	font-size:42px;
+	color:white;
+	font-family: pricedown, Impact, Tahoma, sans-serif ;
+	text-shadow: -2px -2px 0px black;
+}
+
+h4{
+	font-size:36px;
+	color:white;
+}
+
+h5{
+	font-size:18px;
+	color:white;
+}
+/***********/
+
+/* Anchors */
+a{
+	color:#eaa143;
+}
+
+a:hover{
+	color:#cc0000;
+	text-decoration:none;
+}
+/***********/
+
+/* Navigation */
+.nav{
+	display:none;
+	text-align:center;
+        margin-bottom:30px;
+}
+
+.nav li{
+	display: inline-block;
+	font-family: BirchStd, Georgia, Palatino, serif;
+	font-size:24px;
+	width:130px;
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+
+}
+
+.nav li a{	
+	background-color:#990000;
+	
+}
+
+.nav li a:hover{
+	background-color: #eaa143;
+}
+/**************/
+
+/* Title text styles */
+.title{
+	text-align: center;
+}
+
+.title a{
+    color:#990000;
+}
+
+.title a:hover{
+    color:#cc0000;
+}
+/**************/
+
+
+/* Owl Carousel Styles  http://www.owlgraphic.com/owlcarousel/ */
+
+.owl-demo .item img{
+    display: block;
+    margin:auto;
+}
+
+/* Rasta Flag top bar */
+#bgbar1{
+	height:20px;
+	background-color:rgba(51,153,0,0.5);
+	margin:0;
+	padding:0;
+}
+
+#bgbar2{
+	height:20px;
+	background-color:rgba(255,204,0,0.5);;
+	margin:0;
+	padding:0;	
+}
+/**********************/
+
+/* Content Boxes */
+.box{
+	background-color:rgba(0,0,0,0.5);
+	text-align: center;
+        padding:20px;
+        height:100%;
+}
+
+.box a{
+    padding:15px;
+    background-color:rgba(51,153,0,0.5);
+	color:white;
+}
+
+.box a:hover{
+    background-color:rgba(51,153,0,0.5);
+	color:#eaa143;
+}
+
+.contactbox{
+	background-color:rgba(0,0,0,0.5);
+        padding:20px;
+        height:100%;
+}
+
+.contactbox a{
+    padding:15px;
+	color:white;
+}
+
+.contactbox img:hover{
+	background-color:rgba(255,255,255,0.8);
+}
+
+/*****************/
+
+/* News styles */
+.fresh .headlinetxt{
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.fresh p{
+  font-style: oblique;
+}
+/*****************/
+
+/* Rollover Popup styles */
+.popup{
+    color:white;
+    font-size:90%;
+}
+
+.popup h3{
+    color:red;
+    margin:0;
+}
+/*****************/
+
+
+/* Jumbotron custom styles (overiding Bootstraps default styles */
+.jumbotron{
+    background-color:rgba(0,0,0,0.5);
+}
+/****************************************************************/
+
+/* Tooltip custom styles */
+ui-tooltip{
+    background-color:rgba(0,0,0,0.5);
+}
+/*************************/
+
+/* Home page images */
+.homeimgs{
+    margin-bottom:20px;
+}
+/*************************/
+
+#accordion{
+    color:black;
+}
+
+.popup-gallery img{
+    border: 2px solid black;
+    margin:10px;
+}
+
+.popup-gallery img:hover{
+    border: 2px solid rgba(255,255,255,0.6);
+}
